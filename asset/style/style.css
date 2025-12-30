@@ -522,7 +522,7 @@ footer p {
 
 @media screen and (max-width: 600px) {
   h1 {
-    font-size: 1.5em;
+    font-size: 1em;
     position: relative;
     left: 20px;
   }
