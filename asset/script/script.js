@@ -10,3 +10,11 @@ document.getElementById("toggle").addEventListener("click", function () {
   });
   document.getElementById("list").classList.toggle("active");
 });
+alert(
+  "Width: " +
+    window.innerWidth +
+    "\nHeight: " +
+    window.innerHeight +
+    "\nDevice Pixel Ratio: " +
+    window.devicePixelRatio
+);
