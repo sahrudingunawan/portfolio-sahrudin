@@ -578,11 +578,14 @@ footer p {
   #profile {
     height: 83vh;
     margin-bottom: 0;
-    padding-top: 100px;
+    /* padding-top: 100px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
   }
-  .section__text {
+  /* .section__text {
     margin-top: 100px;
-  }
+  } */
   /* #profile img {
     margin-top: 40px;
   } */
